@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi"
+      ],
+      "responses": [
+        "What subject do you need help with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+
+        "Have a nice day"
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "I have another question"
+
+      ],
+      "responses": [
+
+        "How may i help?"
+      ]
+    },
+    
+
+
+  ]
+}
